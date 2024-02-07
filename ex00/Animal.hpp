@@ -1,12 +1,25 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Animal.h                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: joterrett <joterrett@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 13:27:27 by joterrett         #+#    #+#             */
-/*   Updated: 2024/01/18 13:27:28 by joterrett        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#ifndef ANIMAL_HPP
+#define ANIMAL_HPP
 
+#include <iostream>
+#include <string>
+
+class Animal {
+	public:
+		// Constructeurs && Destructeur
+		Animal();
+		Animal(const std::string &name);
+		~Animal();
+
+		//Methodes
+
+	private:
+		//Attributs
+		std::string name;
+
+};
+
+//Autres fonctions
+
+
+#endif

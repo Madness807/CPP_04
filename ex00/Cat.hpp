@@ -1,12 +1,25 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Cat.h                                              :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: joterrett <joterrett@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 13:27:32 by joterrett         #+#    #+#             */
-/*   Updated: 2024/01/18 13:27:33 by joterrett        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#ifndef CAT_HPP
+#define CAT_HPP
 
+#include <iostream>
+#include <string>
+
+class Cat {
+	public:
+		// Constructeurs && Destructeur
+		Cat();
+		Cat(const std::string &name);
+		~Cat();
+
+		//Methodes
+
+	private:
+		//Attributs
+		std::string name;
+
+};
+
+//Autres fonctions
+
+
+#endif
