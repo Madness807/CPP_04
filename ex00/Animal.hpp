@@ -5,21 +5,19 @@
 #include <string>
 
 class Animal {
+	private:
+
+	protected:
+		std::string type;
+
 	public:
-		// Constructeurs && Destructeur
 		Animal();
-		Animal(const std::string &name);
+		
 		~Animal();
 
-		//Methodes
-
-	private:
-		//Attributs
-		std::string name;
+		virtual void makeSound(const char cris);
+		const char getType();
 
 };
-
-//Autres fonctions
-
 
 #endif

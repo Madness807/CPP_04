@@ -1,25 +1,20 @@
-#ifndef CAT_HPP
-#define CAT_HPP
+#ifndef DOG_HPP
+#define DOG_HPP
 
 #include <iostream>
 #include <string>
+#include "Animal.hpp"
 
-class Cat {
-	public:
-		// Constructeurs && Destructeur
-		Cat();
-		Cat(const std::string &name);
-		~Cat();
-
-		//Methodes
-
+class Dog : public Animal{
 	private:
-		//Attributs
-		std::string name;
+
+	public:
+		Dog();
+		Dog(const std::string &name);
+		~Dog();
+
+		void makeSound(std::string cris);
 
 };
-
-//Autres fonctions
-
 
 #endif

@@ -8,7 +8,7 @@ class Cat {
 	public:
 		// Constructeurs && Destructeur
 		Cat();
-		Cat(const std::string &name);
+		
 		~Cat();
 
 		//Methodes
