@@ -3,23 +3,18 @@
 
 #include <iostream>
 #include <string>
+#include "Animal.hpp"
 
 class Cat {
+	private:
+
 	public:
 		// Constructeurs && Destructeur
 		Cat();
-		
 		~Cat();
 
-		//Methodes
-
-	private:
-		//Attributs
-		std::string name;
-
+		// Methodes
+		void makeSound() const;
 };
-
-//Autres fonctions
-
 
 #endif

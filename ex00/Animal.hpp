@@ -11,13 +11,20 @@ class Animal {
 		std::string type;
 
 	public:
+
+		// Constructeur
 		Animal();
+		Animal(std::string type);
 		
-		~Animal();
+		virtual ~Animal();
 
+		// Surcharge d operateur
+		Animal& operator=(const Animal &rhs);
+
+		// Methodes
 		virtual void makeSound(const char cris);
-		const char getType();
-
+		//Getters
+		std::string getType() const;
 };
 
 #endif

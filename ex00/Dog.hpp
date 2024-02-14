@@ -10,10 +10,10 @@ class Dog : public Animal{
 
 	public:
 		Dog();
-		Dog(const std::string &name);
 		~Dog();
 
-		void makeSound(std::string cris);
+		// Methodes
+		void makeSound() const;
 
 };
 
