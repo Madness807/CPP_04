@@ -5,26 +5,28 @@
 #include <string>
 
 class Animal {
-	private:
-
 	protected:
-		std::string type;
+		std::string _type;
 
 	public:
 
-		// Constructeur
+		// Constructeur par default
 		Animal();
+		// Constructeur prenant une string
 		Animal(std::string type);
-		
+		// Constructeur par copie
+		Animal(Animal const & instance);
+		// Destructeur
 		virtual ~Animal();
 
 		// Surcharge d operateur
 		Animal& operator=(const Animal &rhs);
 
-		// Methodes
-		virtual void makeSound(const char cris);
 		//Getters
-		std::string getType() const;
+		virtual std::string getType() const;
+
+		// Methodes
+		virtual void makeSound() const;
 };
 
 #endif

@@ -6,15 +6,13 @@
 #include "Animal.hpp"
 
 class Dog : public Animal{
-	private:
-
 	public:
 		Dog();
-		~Dog();
+		virtual ~Dog();
 
 		// Methodes
 		void makeSound() const;
-
+		std::string getType() const;
 };
 
 #endif

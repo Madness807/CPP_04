@@ -1,5 +1,5 @@
 # Nom de l'exécutable
-NAME = zombie
+NAME = Animal
 
 # Compilateur
 CC = c++
@@ -8,7 +8,7 @@ CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 # Fichiers sources
-SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp
+SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongCat.cpp WrongAnimal.cpp
 
 # Règle par défaut
 all: $(NAME)

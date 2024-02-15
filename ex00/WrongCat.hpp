@@ -1,15 +1,15 @@
-#ifndef CAT_HPP
-#define CAT_HPP
+#ifndef WRONGCAT_HPP
+#define WRONGCAT_HPP
 
 #include <iostream>
 #include <string>
-#include "Animal.hpp"
+#include "WrongAnimal.hpp"
 
-class Cat : public Animal{
+class WrongCat : public WrongAnimal{
 	public:
 		// Constructeurs && Destructeur
-		Cat();
-		virtual ~Cat();
+		WrongCat();
+		~WrongCat();
 
 		// Methodes
 		void makeSound() const;
