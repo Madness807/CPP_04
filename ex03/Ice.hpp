@@ -5,7 +5,7 @@
 #include <string>
 #include "Amateria.hpp"
 
-class Ice : public Amataria {
+class Ice : public Amateria {
     private:
     // Attributs privés
     protected:

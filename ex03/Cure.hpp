@@ -22,4 +22,5 @@ class Cure : public Amateria{
 
         // Autres méthodes publiques
 };
+
 #endif 

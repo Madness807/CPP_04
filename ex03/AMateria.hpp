@@ -25,4 +25,4 @@ class Amataria {
 
 };
 
-#endif /* ![NOM_CLASSE]_HPP */
+#endif

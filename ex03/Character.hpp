@@ -23,4 +23,4 @@ class Character {
 
 };
 
-#endif /* ![NOM_CLASSE]_HPP */
+#endif
