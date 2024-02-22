@@ -1,38 +1,28 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   AMateria.hpp                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: joterrett <joterrett@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 13:28:29 by joterrett         #+#    #+#             */
-/*   Updated: 2024/01/18 13:32:20 by joterrett        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#ifndef [NOM_CLASSE]_HPP
-#define [NOM_CLASSE]_HPP
+#ifndef AMATERIA_HPP
+#define AMATERIA_HPP
 
 #include <iostream>
 #include <string>
 // Inclure d'autres bibliothèques nécessaires
 
-class [NomClasse] {
+class Amataria {
+    private:
+        std::string _type;
+
     public:
         // Constructeurs
-        [NomClasse]();
-        [NomClasse](const [NomClasse] &source);
-
+        Amataria();
+        Amataria(const Amataria &source);
         // Destructeur
-        ~[NomClasse]();
+        ~Amataria();
 
         // Opérateur d'affectation
-        [NomClasse] &operator=(const [NomClasse] &source);
+        //Ametaria &operator=(const [Ametaria] &source);
 
         // Autres méthodes publiques
+        void use();
+        void clone();
 
-    private:
-        // Attributs privés
 };
 
 #endif /* ![NOM_CLASSE]_HPP */

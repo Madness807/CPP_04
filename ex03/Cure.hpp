@@ -1,38 +1,25 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Cure.hpp                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: joterrett <joterrett@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 13:28:39 by joterrett         #+#    #+#             */
-/*   Updated: 2024/01/18 13:32:27 by joterrett        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#ifndef [NOM_CLASSE]_HPP
-#define [NOM_CLASSE]_HPP
+#ifndef CURE_HPP
+#define CURE_HPP
 
 #include <iostream>
 #include <string>
-// Inclure d'autres bibliothèques nécessaires
+#include "Amateria.hpp"
 
-class [NomClasse] {
-    public:
-        // Constructeurs
-        [NomClasse]();
-        [NomClasse](const [NomClasse] &source);
-
-        // Destructeur
-        ~[NomClasse]();
-
-        // Opérateur d'affectation
-        [NomClasse] &operator=(const [NomClasse] &source);
-
-        // Autres méthodes publiques
-
+class Cure : public Amateria{
     private:
         // Attributs privés
-};
+    protected:
+        // Attributs proteger
+    public:
+        // Constructeurs
+        Cure();
+        Cure(const Cure &source);
+        // Destructeur
+        ~Cure();
 
-#endif /* ![NOM_CLASSE]_HPP */
+        // Opérateur d'affectation
+        //[NomClasse] &operator=(const [NomClasse] &source);
+
+        // Autres méthodes publiques
+};
+#endif 

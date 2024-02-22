@@ -1,12 +1,11 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Ice.cpp                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: joterrett <joterrett@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 13:28:42 by joterrett         #+#    #+#             */
-/*   Updated: 2024/01/18 13:28:43 by joterrett        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#include "Ice.hpp"
 
+// Methodes
+
+// Operateur d affectation 
+
+// Constructeur par defaut
+
+// Constructeur par copie
+
+// Destructeur
