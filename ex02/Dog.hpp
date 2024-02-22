@@ -1,38 +1,26 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Dog.hpp                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: joterrett <joterrett@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 13:28:20 by joterrett         #+#    #+#             */
-/*   Updated: 2024/01/18 13:32:18 by joterrett        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#ifndef [NOM_CLASSE]_HPP
-#define [NOM_CLASSE]_HPP
+#ifndef DOG_HPP
+#define DOG_HPP
 
 #include <iostream>
 #include <string>
-// Inclure d'autres bibliothèques nécessaires
+#include "Animal.hpp"
+#include "Brain.hpp"
 
-class [NomClasse] {
-    public:
-        // Constructeurs
-        [NomClasse]();
-        [NomClasse](const [NomClasse] &source);
+class Dog : public Animal{
+	private:
+		Brain *brain;
+	
+	public:
+		Dog();
+		Dog(Dog const &other);
+		virtual ~Dog();
 
-        // Destructeur
-        ~[NomClasse]();
+		// Methodes
+		virtual void makeSound() const;
+		std::string getType() const;
 
-        // Opérateur d'affectation
-        [NomClasse] &operator=(const [NomClasse] &source);
-
-        // Autres méthodes publiques
-
-    private:
-        // Attributs privés
+		// Opérateur d'affectation
+        Dog &operator=(const Dog &source);
 };
 
-#endif /* ![NOM_CLASSE]_HPP */
+#endif

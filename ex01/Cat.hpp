@@ -16,7 +16,7 @@ class Cat : public Animal{
 		virtual ~Cat();
 
 		// Methodes
-		virtual void makeSound() const;
+		void makeSound() const;
 		std::string getType() const;
 
 		// Opérateur d'affectation

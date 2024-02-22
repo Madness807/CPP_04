@@ -1,26 +1,26 @@
-#ifndef CAT_HPP
-#define CAT_HPP
+#ifndef DOG_HPP
+#define DOG_HPP
 
 #include <iostream>
 #include <string>
 #include "Animal.hpp"
 #include "Brain.hpp"
 
-class Cat : public Animal{
+class Dog : public Animal{
 	private:
 		Brain *brain;
-
+	
 	public:
-		Cat();
-		Cat(Cat const &other);
-		virtual ~Cat();
+		Dog();
+		Dog(Dog const &other);
+		virtual ~Dog();
 
 		// Methodes
-		virtual void makeSound() const;
+		void makeSound() const;
 		std::string getType() const;
 
 		// Opérateur d'affectation
-        Cat &operator=(const Cat &source);
+        Dog &operator=(const Dog &source);
 };
 
 #endif
