@@ -1,9 +1,12 @@
 #include "AMateria.hpp"
 #include "Character.hpp"
 #include "MateriaSource.hpp"
+#include "AMateria.hpp"
+#include "Character.hpp"
 
 int main()
 {
+    /*
     IMateriaSource* src = new MateriaSource();
     src->learnMateria(new Ice());
     src->learnMateria(new Cure());
@@ -20,6 +23,7 @@ int main()
     delete bob;
     delete me;
     delete src;
+    */
     return 0;
 }
 

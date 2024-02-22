@@ -3,9 +3,9 @@
 
 #include <iostream>
 #include <string>
-#include "Amateria.hpp"
+#include "AMateria.hpp"
 
-class Cure : public Amateria{
+class Cure : public AMateria{
     private:
         // Attributs privés
     protected:

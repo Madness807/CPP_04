@@ -3,11 +3,11 @@
 
 #include <iostream>
 #include <string>
-#include "Amateria.hpp"
+#include "AMateria.hpp"
 
-class Ice : public Amateria {
+class Ice : public AMateria {
     private:
-    // Attributs privés
+        // Attributs privés
     protected:
         // Attributs proteger
     public:
@@ -20,7 +20,7 @@ class Ice : public Amateria {
         // Opérateur d'affectation
         //[NomClasse] &operator=(const [NomClasse] &source);
 
-        // Autres méthodes publiques
+
 };
 
 #endif /* ![NOM_CLASSE]_HPP */

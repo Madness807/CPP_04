@@ -1,33 +1,20 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   MateriaSource.hpp                                  :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: joterrett <joterrett@student.42.fr>        +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 13:28:59 by joterrett         #+#    #+#             */
-/*   Updated: 2024/01/18 13:32:41 by joterrett        ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#ifndef [NOM_CLASSE]_HPP
-#define [NOM_CLASSE]_HPP
+#ifndef MATERIASOURCE_HPP
+#define MATERIASOURCE_HPP
 
 #include <iostream>
 #include <string>
-// Inclure d'autres bibliothèques nécessaires
 
-class [NomClasse] {
+class Materiasource {
     public:
         // Constructeurs
-        [NomClasse]();
-        [NomClasse](const [NomClasse] &source);
+        Materiasource ();
+        Materiasource (const Materiasource  &source);
 
         // Destructeur
-        ~[NomClasse]();
+        ~Materiasource ();
 
         // Opérateur d'affectation
-        [NomClasse] &operator=(const [NomClasse] &source);
+        Materiasource  &operator=(const Materiasource  &source);
 
         // Autres méthodes publiques
 
@@ -35,4 +22,4 @@ class [NomClasse] {
         // Attributs privés
 };
 
-#endif /* ![NOM_CLASSE]_HPP */
+#endif

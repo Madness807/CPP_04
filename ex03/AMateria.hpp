@@ -3,26 +3,30 @@
 
 #include <iostream>
 #include <string>
-// Inclure d'autres bibliothèques nécessaires
+#include "ICharacter.hpp"
 
-class Amataria {
-    private:
+class AMateria {
+    protected:
         std::string _type;
 
     public:
         // Constructeurs
-        Amataria();
-        Amataria(const Amataria &source);
+        AMateria();
+        AMateria(std::string const & type);
         // Destructeur
-        ~Amataria();
+        ~AMateria();
 
         // Opérateur d'affectation
         //Ametaria &operator=(const [Ametaria] &source);
 
         // Autres méthodes publiques
-        void use();
-        void clone();
+        virtual AMateria* clone() const = 0;
+        virtual void use(ICharacter& target);
+        std::string const & getType() const;
 
 };
 
 #endif
+
+
+

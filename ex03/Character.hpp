@@ -20,6 +20,9 @@ class Character {
         //Character &operator=(const [NomClasse] &source);
 
         // Autres méthodes publiques
+        void equip();
+        void unequip();
+        void use();
 
 };
 
