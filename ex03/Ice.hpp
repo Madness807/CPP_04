@@ -20,7 +20,6 @@ class Ice : public AMateria {
         // Opérateur d'affectation
         //[NomClasse] &operator=(const [NomClasse] &source);
 
-
 };
 
 #endif /* ![NOM_CLASSE]_HPP */
