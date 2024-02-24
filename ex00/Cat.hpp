@@ -7,9 +7,15 @@
 
 class Cat : public Animal{
 	public:
-		// Constructeurs && Destructeur
+		// Constructeurs
 		Cat();
+		// Constructeur par copie
+		Cat(const Cat &source);// implementer dans cpp
+		// Destructeur
 		virtual ~Cat();
+
+		// Surcharge d opertateur 
+		Cat& operator=(const Cat &rhs);// implementer dans cpp
 
 		// Methodes
 		void makeSound() const;

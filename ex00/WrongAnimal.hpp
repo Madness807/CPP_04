@@ -15,7 +15,7 @@ class WrongAnimal {
 		// Constructeur prenant une string
 		WrongAnimal(std::string type);
 		// Constructeur par copie
-		WrongAnimal(WrongAnimal const & instance);
+		WrongAnimal(WrongAnimal const &instance);
 		// Destructeur
 		~WrongAnimal();
 

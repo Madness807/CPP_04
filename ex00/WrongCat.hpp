@@ -7,9 +7,15 @@
 
 class WrongCat : public WrongAnimal{
 	public:
-		// Constructeurs && Destructeur
+		// Constructeurs
 		WrongCat();
+		// Constructeur par copie
+		WrongCat(const WrongCat &source);// implementer dans cpp
+		// Destructeur
 		~WrongCat();
+
+		// Surcharge d opertateur 
+		WrongCat& operator=(const WrongCat &rhs);// implementer dans cpp
 
 		// Methodes
 		void makeSound() const;
