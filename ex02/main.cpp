@@ -15,7 +15,7 @@ int main()
         animals[i] = new Cat();
     }
     // Nettoyage
-    for(int i = 0; i < 6; ++i) {
+    for(int i = 0; i < 4; ++i) {
         delete animals[i];
     }
     return 0;

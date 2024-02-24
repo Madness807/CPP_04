@@ -8,7 +8,7 @@ CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 # Fichiers sources
-SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp Brain.cpp
+SRC = main.cpp Animal.cpp Cat.cpp Dog.cpp Brain.cpp WrongAnimal.cpp WrongCat.cpp
 
 # Règle par défaut
 all: $(NAME)
